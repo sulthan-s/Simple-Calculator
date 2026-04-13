@@ -31,3 +31,8 @@ Full keyboard and numpad integration:
 - Clear, user-friendly error messages
 - Automatic error recovery
 
+## How to Run
+
+```bash
+python calculator.py
+
