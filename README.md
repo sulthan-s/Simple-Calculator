@@ -1,38 +1,49 @@
-# Advanced Calculator Application
+# Calculator Application with Multiple Themes
 
-A feature-rich calculator built with Python's Tkinter library, supporting both mouse and keyboard input with advanced input validation.
+A beautifully designed calculator built with Python's Tkinter library, featuring **5 color themes**, smooth hover effects, and full keyboard support.
 
-## Features
+## 🎨 Available Themes
 
-### Core Functionality
-- Basic arithmetic operations (+, -, *, /)
-- Decimal point support for floating-point calculations
-- Clear screen (C) and backspace (⌫) functionality
-- Real-time expression display
+| Theme | Description | Best For |
+|-------|-------------|----------|
+| 🌑 **Dark** | Sleek dark mode with orange accents | Night use, eye comfort |
+| ☀️ **Light** | Clean light mode with high contrast | Daytime, bright environments |
+| 💙 **Blue** | Deep blue theme with vibrant operators | Modern, professional look |
+| 💜 **Purple** | Rich purple theme | Creative, stylish appearance |
+| 💚 **Green** | Nature-inspired green theme | Calming, easy on eyes |
 
-### Input Validation
-- Prevents multiple operators in a row (e.g., `+++`, `+-*/`)
-- Prevents multiple decimal points in the same number
-- Handles negative numbers correctly
-- Auto-clears error messages when new input starts
+## ✨ Features
 
-### Keyboard Support
-Full keyboard and numpad integration:
-- **Number keys**: 0-9 (both top row and numpad)
-- **Operators**: +, -, *, / (main keyboard and numpad)
-- **Enter/Return**: Calculate result
-- **Backspace**: Delete last character
-- **Escape (Esc)**: Clear all input
-- **Period (.)**: Add decimal point
+- **5 Color Themes** - Switch themes instantly with color selector buttons
+- **Smooth Hover Effects** - Buttons change color on mouse hover
+- **Modern Design** - Clean interface with Segoe UI font
+- **Full Keyboard Support** - Use both main keyboard and numpad
+- **Smart Input Validation** - Prevents invalid expressions
+- **Error Handling** - Clear error messages for division by zero and syntax errors
+- **Responsive Layout** - Buttons resize with window
 
-### Error Handling
-- Division by zero protection
-- Syntax error detection
-- Clear, user-friendly error messages
-- Automatic error recovery
+## 🎯 New Theme Selector
 
-## How to Run
+The calculator includes a theme selector bar at the bottom with color-coded buttons:
+- Click any color swatch to instantly change the entire calculator theme
+- Themes persist within the session
+- Smooth transition when changing themes
 
+## 🎮 Keyboard Shortcuts
+
+| Key | Function |
+|-----|----------|
+| `0-9` | Enter numbers |
+| `+ - * /` | Basic operations |
+| `.` | Decimal point |
+| `Enter` or `KP_Enter` | Calculate result |
+| `Backspace` | Delete last character |
+| `Escape` | Clear all |
+| `Numpad keys` | Full numpad support |
+
+## 🚀 Installation & Usage
+
+1. Save the code as `calculator.py`
+2. Run the application:
 ```bash
 python calculator.py
-
